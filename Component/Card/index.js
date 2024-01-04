@@ -45,12 +45,6 @@ export default function Card() {
                         Best Overall
                       </span>
                     </div>
-                    <div className="pt-2 d-stars">
-                      <div className="star-ratings-sprite zoom8">
-                        <span data-width="98" className="star-ratings-sprite-rating yellowstarts" style={{ width: '98%' }}>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                   <div className="col-6 col-md-2 price-holder d-flex flex-column justify-content-center align-items-center text-center mt-3 mt-md-0">
                     <div className="mb-3 prices">
