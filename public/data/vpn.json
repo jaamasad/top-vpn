@@ -1,0 +1,112 @@
+[
+  {
+    "name": "ExpressVPN",
+    "link": "https://www.expressvpn.com/",
+    "description": "ExpressVPN is a leading VPN service known for its fast and secure connections.",
+    "benefits": ["High-speed connections", "Robust security features", "Global server network", "Protects online privacy"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "price": 12.95,
+    "discountPrice": 6.67,
+    "rating": 8.7
+  },
+  {
+    "name": "CyberGhost VPN",
+    "link": "www.cyberghostvpn.com",
+    "description": "Anonymize your online activity with the most reliable VPN provider out there! CyberGhost protects 36+ million users' data as it moves around the web.",
+    "benefits": ["Hide your IP address", "Protect digital identity", "Secure bank transactions", "Military-grade encryption"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Amazon Fire TV & Fire Stick", "Android TV", "Linux", "Router"],
+    "price": 12.99,
+    "discountPrice": 2.75,
+    "rating": 8.5
+  },
+  {
+    "name": "Private Internet Access",
+    "link": "www.privateinternetaccess.com",
+    "description": "Private Internet Access (PIA) is a well-established VPN service offering strong privacy features.",
+    "benefits": ["No-logs policy", "Large server network", "Secure and anonymous browsing", "Robust privacy features"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "price": 9.95,
+    "discountPrice": 3.33,
+    "rating": 8.2
+  },
+  {
+    "name": "IPVanish",
+    "link": "https://www.ipvanish.com/",
+    "description": "IPVanish is a popular VPN service known for its high-speed connections and robust security features.",
+    "benefits": ["User-friendly interface", "Large network of servers", "High-speed connections", "Robust security features"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Amazon Fire TV & Fire Stick", "Router"],
+    "price": 10.00,
+    "discountPrice": 4.99,
+    "rating": 8.3
+  },
+  {
+    "name": "Surfshark",
+    "link": "https://surfshark.com/",
+    "description": "Surfshark is a budget-friendly VPN service that doesn't compromise on features.",
+    "benefits": ["Affordable pricing", "Unlimited device connections", "Strong encryption", "Wide server network"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Amazon Fire TV & Fire Stick", "Android TV", "Router"],
+    "price": 11.95,
+    "discountPrice": 1.99,
+    "rating": 8.6
+  },
+  {
+    "name": "Hotspot Shield",
+    "link": "https://www.gohotspotshield.com/",
+    "description": "Hotspot Shield is a VPN service that emphasizes speed and ease of use.",
+    "benefits": ["Fast and easy-to-use", "Large server network", "Secure and private browsing", "Straightforward VPN solution"],
+    "platforms": ["Windows", "macOS", "iOS", "Android"],
+    "price": 9.99,
+    "discountPrice": 4.50,
+    "rating": 8.4
+  },
+  {
+    "name": "NordVPN",
+    "link": "https://nordvpn.com/",
+    "description": "NordVPN is a widely acclaimed VPN service offering top-notch security and privacy features.",
+    "benefits": ["Vast server network", "Strong encryption", "User-friendly applications", "Reliable choice for various online activities"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "price": 11.95,
+    "discountPrice": 3.49,
+    "rating": 8.8
+  },
+  {
+    "name": "VyprVPN",
+    "link": "https://www.vyprvpn.com/",
+    "description": "VyprVPN stands out with its proprietary Chameleon protocol, providing users with enhanced security and bypassing restrictive networks.",
+    "benefits": ["Proprietary Chameleon protocol", "Enhanced security", "Bypass restrictive networks", "Focus on privacy and performance"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Router"],
+    "price": 12.95,
+    "discountPrice": 5.99,
+    "rating": 8.9
+  },
+  {
+    "name": "Panda Security",
+    "link": "https://www.pandasecurity.com/",
+    "description": "Panda Security offers a VPN service as part of its comprehensive security solutions.",
+    "benefits": ["Protects digital identity", "Ensures online privacy", "Part of comprehensive security solutions", "Reliable VPN option"],
+    "platforms": ["Windows", "macOS", "Android"],
+    "price": 8.99,
+    "discountPrice": 2.99,
+    "rating": 7.5
+  },
+  {
+    "name": "PureVPN",
+    "link": "https://www.purevpn.com/",
+    "description": "PureVPN is a feature-rich VPN service known for its diverse server network and strong privacy features.",
+    "benefits": ["Feature-rich", "Diverse server network", "Strong privacy features", "Versatile VPN solution"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "price": 10.95,
+    "discountPrice": 4.95,
+    "rating": 8.0
+  },
+  {
+    "name": "HideMyAss",
+    "link": "https://www.hidemyass.com/",
+    "description": "HideMyAss (HMA) is a well-known VPN service with a global server network.",
+    "benefits": ["User-friendly interface", "Global server network", "Balances performance and ease of use", "Well-known VPN service"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "price": 11.99,
+    "discountPrice": 3.99,
+    "rating": 7.8
+  }
+]
