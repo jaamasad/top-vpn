@@ -81,7 +81,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url(/images/bg2.gif);
+  /* background-image: url(/images/bg2.gif); */
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -12044,7 +12044,8 @@ ul.features-square li::before {
 
 .d-score {
   font-size: 36px;
-  width: auto;
+  width: 100%;
+  max-width: 90px;
   line-height: 1.2;
   font-weight: 700;
   color: #44484c;
@@ -12057,7 +12058,6 @@ ul.features-square li::before {
 
 .d-progress {
   position: absolute;
-  width: 65%;
   height: 100%;
   background: #62ff0082;
   top: 0;
