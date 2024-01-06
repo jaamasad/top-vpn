@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Cyber Ghost VPN",
+    "link": "https://www.expressvpn.com/",
+    "description": "ExpressVPN is a leading VPN service known for its fast and secure connections.",
+    "detailed_description": "ExpressVPN is a premium VPN provider renowned for its industry-leading speed, robust security features, and a vast global server network spanning 94 countries.",
+    "benefits": ["High-speed connections", "Robust security features", "Global server network", "Protects online privacy"],
+    "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],
+    "countries_supported": 94,
+    "number_of_connections": 5,
+    "price": {
+      "monthly": 12.95,
+      "discounted": 6.67
+    },
+    "streaming_optimized_servers": true,
+    "rating": 8.7,
+    "user_reviews": [
+      {"user": "JohnDoe123", "rating": 9, "comment": "Super fast and reliable!"},
+      {"user": "JaneSmith", "rating": 8, "comment": "Great for streaming and privacy."}
+    ],
+    "speed_test_results": [
+      {"server_location": "New York", "download_speed": 50, "upload_speed": 20},
+      {"server_location": "London", "download_speed": 45, "upload_speed": 18}
+    ],
+    "security_audits": [
+      {"auditor": "SecurityAuditCo", "result": "Passed with flying colors."}
+    ],
+    "comparison_data": {"feature1": "Yes", "feature2": "Yes"},
+    "interactive_map": {"map_url": "https://example.com/map"},
+    "trial_experiences": [
+      {"user": "TrialUser1", "experience": "Had a positive trial experience."}
+    ],
+    "unique_features": ["TrustedServer technology", "MediaStreamer DNS"],
+    "device_compatibility_matrix": {"Windows": "Yes", "macOS": "Yes"},
+    "customer_support_ratings": {"average_rating": 9, "total_reviews": 120},
+    "data_retention_policy": "No logs policy",
+    "security_protocol_details": "AES-256 encryption, OpenVPN, etc.",
+    "vpn_usage_tips": "Always connect to the nearest server for optimal speed.",
+    "industry_news_updates": [
+      {"title": "ExpressVPN introduces new server locations", "date": "2024-03-15"}
+      ],
+    "community_forum": "https://community.example.com/expressvpn",
+    "educational_resources": [
+      {"title": "The Ultimate Guide to VPNs", "url": "https://example.com/vpn-guide"}
+    ]
+  }
+]

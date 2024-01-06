@@ -3,7 +3,7 @@ import React from "react"
 export default function Header() {
     return (
         <div className="container">
-            <div className="row">
+            <div className="row py-2">
                 <div className="col-12 col-md-4 mt-2 text-left pb-2 pb-md-0">
                     <a href="/" className="sans-serif nounderline logo-top">
                         <span className="logo-text-1"> VPN</span>
@@ -16,7 +16,7 @@ export default function Header() {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="/">Home</a>
+                                        <a className="nav-link text-white " href="/">Home</a>
                                     </li>
                                 </ul>
                             </div>

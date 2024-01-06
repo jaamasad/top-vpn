@@ -14,12 +14,11 @@ const Card = ({ vpn, vpn_index }) => {
 
   return (
     <div className='container'>
-      <Link
+      <div
         id={`list-id-${name}`}
         rel="noopener noreferrer nofollow"
         className="d-block no-gutters mb-4 pl-3 pr-3 pt-4 pb-4 list list-1 lpm-1"
         data-id={name}
-        href={`/vpn/${vpn.name.toLowerCase().replace(/\s/g, '-')}`}
       >
         <div className="row">
           <div className="discount discount-new">
@@ -35,7 +34,7 @@ const Card = ({ vpn, vpn_index }) => {
                 <img
                   alt={name}
                   className="img-fluid w-100 m-auto max-240"
-                  src={`/images/${name.toLowerCase().replace(/\s/g, '_')}_logo.png`}
+                  src={`/images/logo/${name.toLowerCase().replace(/\s/g, '_')}.png`}
                   title={name}
                 />
               </div>
@@ -55,11 +54,11 @@ const Card = ({ vpn, vpn_index }) => {
                       key={index}
                       data-toggle="tooltip"
                       data-original-title={platform}
-                      src={`/images/${platform.toLowerCase()}.svg`}
+                      src={`/images/${platform.toLowerCase().replace(/\s/g, '_')}.svg`}
                       alt={platform}
                       className="os-icons-small"
                     />
-                  ))}
+                  ))} 
                 </div>
               </div>
               <div className="col-6 col-md-2 rating-info-holder d-flex flex-column justify-content-center align-items-center text-center mt-3 mt-md-0">
@@ -80,12 +79,16 @@ const Card = ({ vpn, vpn_index }) => {
                     {`US$${discountPrice.toFixed(2)}`}
                   </span>
                 </div>
-                <div className="btn btn-visit margin-0-auto pulse">Visit Website</div>
+                <a href={link} target="_blank" className="wave-btn">Visit Website</a>
+                <a 
+                href={`/vpn/${vpn.name.toLowerCase().replace(/\s/g, '-')}`} 
+                data-id={name}
+               className="wave-btn wave-more-btn">More Details</a>
               </div>
             </div>
           </div>
         </div>
-      </Link>
+      </div>
     </div>
   );
 };
