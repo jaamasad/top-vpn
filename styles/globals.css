@@ -376,6 +376,8 @@ progress {
 .wave-btn:hover {
   --_i: calc(4*var(--s));
   transition: .35s;
+  text-decoration: none;
+  color: white;
 }
 .wave-btn:active {
   background-image: linear-gradient(#0004 0 0);
@@ -12294,13 +12296,6 @@ ul.features-square li::before {
 .price-section .optimized img {
   width: 100px;
 }
-.d-progress {
-  position: absolute;
-  height: 100%;
-  background: #16a7a896;
-  top: 0;
-  left: 0;
-}
 
 .d-rating {
   font-size: 16px;
@@ -12309,7 +12304,16 @@ ul.features-square li::before {
   color: #161616;
   font-family: serif
 }
-
+.ReactModal__Overlay {
+  z-index: 99 !important;
+}
+.ReactModal__Content {
+  padding: 0 !important;
+}
+.ReactModal__Content img {
+  width: 100%;
+  height: 100%;
+}
 .d-read-review,
 .d-read-review:hover {
   font-weight: 200;
@@ -12317,8 +12321,30 @@ ul.features-square li::before {
   font-size: 12px;
   text-transform: uppercase
 }
+.close-popup {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  padding: 12px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  display: flex;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'circular';
+  font-weight: bolder;
+}
 
-
+.footer {
+  text-align: center;
+  padding: 37px;
+  background-color: #041830 !important;
+  color: white;
+}
 
 
 .btn-visit {

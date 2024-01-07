@@ -11,7 +11,7 @@
   },
   {
     "name": "CyberGhost VPN",
-    "link": "www.cyberghostvpn.com",
+    "link": "https://www.cyberghostvpn.com",
     "description": "Anonymize your online activity with the most reliable VPN provider out there! CyberGhost protects 36+ million users' data as it moves around the web.",
     "benefits": ["Hide your IP address", "Protect digital identity", "Secure bank transactions", "Military-grade encryption"],
     "platforms": ["Windows", "macOS", "iOS", "Android", "Amazon Fire TV & Fire Stick", "Android TV", "Linux", "Router"],
@@ -21,7 +21,7 @@
   },
   {
     "name": "Private Internet Access",
-    "link": "www.privateinternetaccess.com",
+    "link": "https://www.privateinternetaccess.com",
     "description": "Private Internet Access (PIA) is a well-established VPN service offering strong privacy features.",
     "benefits": ["No-logs policy", "Large server network", "Secure and anonymous browsing", "Robust privacy features"],
     "platforms": ["Windows", "macOS", "iOS", "Android", "Linux", "Router"],

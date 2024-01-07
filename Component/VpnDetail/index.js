@@ -51,7 +51,7 @@ const VpnDetail = ({ vpnData }) => {
       {/* VPN Name and Description */}
       <div className="text-center text-white hero-section">
         <h1 className="text-6xl font-semibold display-1 mb-4">{name}</h1>
-        <p className="text-gray-600">{description}</p>
+        <p className="text-gray-600 container">{description}</p>
         <a class="effect effect-5" href={link} title="Learn More">Visit VPN Website</a>
       </div>
 

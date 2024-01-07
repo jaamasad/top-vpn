@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import ReactStars from "react-rating-stars-component";
 const Card = ({ vpn, vpn_index }) => {
   const {
     name,
@@ -26,7 +27,7 @@ const Card = ({ vpn, vpn_index }) => {
             <div className="treangle-bg"></div>
           </div>
           <div className="col-auto text-center align-center d-none d-lg-flex flex-column justify-content-center">
-            <div className="arating">{vpn_index+1}</div>
+            <div className="arating">{vpn_index + 1}</div>
           </div>
           <div className="col">
             <div className="row">
@@ -58,17 +59,23 @@ const Card = ({ vpn, vpn_index }) => {
                       alt={platform}
                       className="os-icons-small"
                     />
-                  ))} 
+                  ))}
                 </div>
               </div>
               <div className="col-6 col-md-2 rating-info-holder d-flex flex-column justify-content-center align-items-center text-center mt-3 mt-md-0">
                 <div className="d-score relative">
-                  <span className="d-progress" style={{width:`${rating*10}%`}} />
                   {rating}
                 </div>
                 <div className="d-rating">
                   <span>Best Overall</span>
                 </div>
+                <ReactStars
+                  count={10}
+                  edit={false}
+                  value={rating}
+                  isHalf={true}
+                  activeColor="#ffd700"
+                />
               </div>
               <div className="col-6 col-md-2 price-holder d-flex flex-column justify-content-center align-items-center text-center mt-3 mt-md-0">
                 <div className="mb-3 prices">
@@ -79,11 +86,15 @@ const Card = ({ vpn, vpn_index }) => {
                     {`US$${discountPrice.toFixed(2)}`}
                   </span>
                 </div>
-                <a href={link} target="_blank" className="wave-btn">Visit Website</a>
-                <a 
-                href={`/vpn/${vpn.name.toLowerCase().replace(/\s/g, '-')}`} 
-                data-id={name}
-               className="wave-btn wave-more-btn">More Details</a>
+                <a
+                  href={`/vpn/${vpn.name.toLowerCase().replace(/\s/g, '-')}`}
+                  data-id={name}
+                  className="wave-btn wave-more-btn">
+                  More Details
+                </a>
+                <a href={link} target="_blank" className="wave-btn">
+                  Visit Website
+                </a>
               </div>
             </div>
           </div>
